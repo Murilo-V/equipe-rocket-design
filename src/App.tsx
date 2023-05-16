@@ -1,5 +1,57 @@
+import Navbar from "./components/Navbar";
+import MainStyle from "./style";
+
 function App() {
-  return <h1>Equipe Rocket</h1>;
+  return (
+    <MainStyle>
+      <Navbar />
+      <div className="main-section">
+        <h1>O DESIGN NUNCA MAIS SERÁ O MESMO</h1>
+        <p>
+          Somos a <span style={{ fontWeight: 600 }}>Equipe Rocket</span>, uma
+          empresa que usa o poder de transformação do design para você{" "}
+          <span style={{ fontWeight: 600 }}>lucrar mais.</span>
+        </p>
+        <svg
+          className="mouse"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 76 130"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <g fill="none" fill-rule="evenodd">
+            <rect
+              width="70"
+              height="118"
+              x="1.5"
+              y="1.5"
+              stroke="#FFF"
+              stroke-width="3"
+              rx="36"
+            />
+            <circle
+              className="scroll"
+              cx="36.5"
+              cy="31.5"
+              r="4.5"
+              fill="#FFF"
+            />
+          </g>
+        </svg>
+        <svg
+          style={{ position: "absolute", bottom: 0 }}
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#8254f6"
+            fill-opacity="1"
+            d="M0,160L26.7,154.7C53.3,149,107,139,160,160C213.3,181,267,235,320,245.3C373.3,256,427,224,480,186.7C533.3,149,587,107,640,112C693.3,117,747,171,800,192C853.3,213,907,203,960,218.7C1013.3,235,1067,277,1120,282.7C1173.3,288,1227,256,1280,240C1333.3,224,1387,224,1413,224L1440,224L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <div className="services"></div>
+    </MainStyle>
+  );
 }
 
 export default App;
