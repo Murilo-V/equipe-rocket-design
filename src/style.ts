@@ -12,15 +12,16 @@ const MainStyle = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
     h1 {
-      font-size: 35pt;
+      font-size: 45pt;
     }
 
     p {
       color: #fff;
       font-weight: 100;
-      font-size: 14pt;
+      font-size: 18pt;
       margin-top: 0.2rem;
     }
 
@@ -31,7 +32,7 @@ const MainStyle = styled.div`
       position: absolute;
       bottom: 0;
       margin-bottom: 1rem;
-      z-index: 7;
+      z-index: 6;
     }
 
     .scroll {
@@ -58,8 +59,15 @@ const MainStyle = styled.div`
   }
 
   .services {
-    background-image: linear-gradient(#8254f6, #272433);
+    background-color: #966dfd;
+    padding-top: 5rem;
     height: 100vh;
+
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 30pt;
+    }
   }
 `;
 
