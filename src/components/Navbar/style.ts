@@ -24,10 +24,11 @@ const NavbarStyle = styled.nav`
     height: 4rem;
     margin: 0;
 
-    p {
+    a {
       margin: 1rem 2rem;
       color: #fff;
       font-weight: 500;
+      text-decoration: none;
 
       &:hover {
         text-decoration: underline;

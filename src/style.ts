@@ -61,10 +61,42 @@ const MainStyle = styled.div`
   .services {
     background-color: #966dfd;
     padding-top: 5rem;
-    height: 100vh;
+    height: 64vh;
+
+    div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 70%;
+      margin: 1rem auto;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+      }
+    }
 
     h2 {
       color: #fff;
+      text-align: center;
+      font-size: 30pt;
+    }
+
+    p {
+      color: #fff;
+      font-size: 15pt;
+      margin-top: 10px;
+    }
+  }
+
+  .portfolio {
+    background-color: #272433;
+    padding: 2rem;
+
+    h2 {
+      color: #8254f6;
       text-align: center;
       font-size: 30pt;
     }

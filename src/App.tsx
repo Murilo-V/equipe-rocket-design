@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar";
 import MainStyle from "./style";
+import { MdOndemandVideo, MdSmartphone, MdBrush } from "react-icons/md";
+import { FaBullhorn } from "react-icons/fa";
 
 function App() {
   return (
@@ -49,8 +51,29 @@ function App() {
           ></path>
         </svg>
       </div>
-      <div className="services">
+      <div id="services" className="services">
         <h2>Serviços disponíveis</h2>
+        <div>
+          <div>
+            <MdOndemandVideo color="#fff" size={100} />
+            <p>Edição de vídeos</p>
+          </div>
+          <div>
+            <FaBullhorn color="#fff" size={100} />
+            <p>Criação de anúncios</p>
+          </div>
+          <div>
+            <MdBrush color="#fff" size={100} />
+            <p>Vinhetas / Introduções</p>
+          </div>
+          <div>
+            <MdSmartphone color="#fff" size={100} />
+            <p>Posts para redes sociais</p>
+          </div>
+        </div>
+      </div>
+      <div id="portfolio" className="portfolio">
+        <h2>Nosso portfólio</h2>
       </div>
     </MainStyle>
   );
