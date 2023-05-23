@@ -8,8 +8,8 @@ const Navbar = () => {
       <div>
         <a href="#services">Serviços</a>
         <a href="#portfolio">Portfólio</a>
-        <a href="#services">Sobre a Equipe Rocket</a>
-        <a href="#services">Contato</a>
+        <a href="#about">Sobre a Equipe Rocket</a>
+        <a href="#contact">Contato</a>
       </div>
     </NavbarStyle>
   );

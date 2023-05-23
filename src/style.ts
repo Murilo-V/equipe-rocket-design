@@ -61,20 +61,19 @@ const MainStyle = styled.div`
   .services {
     background-color: #966dfd;
     padding-top: 5rem;
-    height: 64vh;
+    height: 70vh;
 
     div {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      width: 70%;
-      margin: 1rem auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       div {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 1rem;
+        margin: 2rem;
       }
     }
 
@@ -93,12 +92,66 @@ const MainStyle = styled.div`
 
   .portfolio {
     background-color: #272433;
-    padding: 2rem;
+    padding: 5rem;
 
     h2 {
       color: #8254f6;
       text-align: center;
       font-size: 30pt;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      div {
+        background-color: #fff;
+        width: 24rem;
+        height: 14rem;
+        margin: 2rem;
+        border-radius: 1rem;
+      }
+    }
+  }
+
+  .about {
+    background-color: #fff;
+    padding: 5rem;
+
+    h2 {
+      color: #8254f6;
+      text-align: center;
+      font-size: 30pt;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      margin: 1rem;
+      font-size: 18pt;
+      font-weight: 500;
+    }
+  }
+
+  .contact {
+    background-color: #272433;
+    padding: 5rem;
+
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 30pt;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      margin: 1rem;
+      color: white;
+      font-size: 18pt;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 `;

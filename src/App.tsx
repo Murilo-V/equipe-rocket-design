@@ -1,7 +1,12 @@
 import Navbar from "./components/Navbar";
 import MainStyle from "./style";
-import { MdOndemandVideo, MdSmartphone, MdBrush } from "react-icons/md";
-import { FaBullhorn } from "react-icons/fa";
+import {
+  MdOndemandVideo,
+  MdSmartphone,
+  MdBrush,
+  MdEmail,
+} from "react-icons/md";
+import { FaBullhorn, FaInstagram } from "react-icons/fa";
 
 function App() {
   return (
@@ -55,25 +60,68 @@ function App() {
         <h2>Serviços disponíveis</h2>
         <div>
           <div>
-            <MdOndemandVideo color="#fff" size={100} />
-            <p>Edição de vídeos</p>
+            <div>
+              <MdOndemandVideo color="#fff" size={100} />
+              <p>Edição de vídeos</p>
+            </div>
+            <div>
+              <FaBullhorn color="#fff" size={100} />
+              <p>Criação de anúncios</p>
+            </div>
           </div>
           <div>
-            <FaBullhorn color="#fff" size={100} />
-            <p>Criação de anúncios</p>
-          </div>
-          <div>
-            <MdBrush color="#fff" size={100} />
-            <p>Vinhetas / Introduções</p>
-          </div>
-          <div>
-            <MdSmartphone color="#fff" size={100} />
-            <p>Posts para redes sociais</p>
+            <div>
+              <MdBrush color="#fff" size={100} />
+              <p>Vinhetas / Introduções</p>
+            </div>
+            <div>
+              <MdSmartphone color="#fff" size={100} />
+              <p>Posts para redes sociais</p>
+            </div>
           </div>
         </div>
       </div>
       <div id="portfolio" className="portfolio">
         <h2>Nosso portfólio</h2>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div id="about" className="about">
+        <h2>Sobre a Equipe Rocket</h2>
+        <div style={{ width: "80%", margin: "auto" }}>
+          <p>Desde 2016 estamos desenvolvendo soluções para nossos clientes.</p>
+          <p>
+            Durante esse período nós erramos, aprendemos e melhoramos o nosso
+            método de transformação. Você terá um resultado que{" "}
+            <span style={{ fontWeight: 600, color: "#8254f6" }}>
+              não seria possível atingir
+            </span>{" "}
+            sem toda a nossa experiência.
+          </p>
+          <p>
+            Qualidade. Criatividade. Ousadia.{" "}
+            <span style={{ fontWeight: 600, color: "#8254f6" }}>
+              Isso é o que nos move.
+            </span>
+          </p>
+        </div>
+      </div>
+      <div id="contact" className="contact">
+        <h2>Entre em contato</h2>
+        <p>
+          <MdEmail style={{ marginRight: 10 }} size={40} />
+          equiperocket.design@gmail.com
+        </p>
+        <p>
+          <FaInstagram size={40} style={{ marginRight: 10 }} />
+          equiperocket.design
+        </p>
       </div>
     </MainStyle>
   );
