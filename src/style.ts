@@ -14,6 +14,10 @@ const MainStyle = styled.div`
       .mouse {
         margin-bottom: 5rem !important;
       }
+
+      .wave {
+        display: none !important;
+      }
     }
 
     .services {
