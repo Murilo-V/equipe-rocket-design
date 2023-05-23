@@ -36,6 +36,12 @@ const NavbarStyle = styled.nav`
       }
     }
   }
+
+  @media screen and (max-width: 600px) {
+    div {
+      display: none !important;
+    }
+  }
 `;
 
 export default NavbarStyle;

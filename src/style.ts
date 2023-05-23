@@ -1,6 +1,72 @@
 import { styled } from "styled-components";
 
 const MainStyle = styled.div`
+  @media screen and (max-width: 600px) {
+    .main-section {
+      h1 {
+        font-size: 27pt !important;
+      }
+
+      p {
+        font-size: 13pt !important;
+      }
+
+      .mouse {
+        margin-bottom: 5rem !important;
+      }
+    }
+
+    .services {
+      h2 {
+        font-size: 22pt !important;
+      }
+
+      div {
+        flex-direction: column !important;
+        text-align: center !important;
+      }
+    }
+
+    .portfolio {
+      h2 {
+        font-size: 22pt !important;
+      }
+      div {
+        flex-direction: column !important;
+      }
+    }
+
+    .about {
+      padding: 5rem 0 !important;
+      h2 {
+        font-size: 22pt !important;
+      }
+
+      p {
+        font-size: 12pt !important;
+      }
+
+      div {
+        width: 100% !important;
+      }
+    }
+
+    .contact {
+      padding: 5rem 0 !important;
+      h2 {
+        font-size: 22pt !important;
+      }
+
+      p {
+        font-size: 12pt !important;
+      }
+
+      i {
+        font-size: 12pt !important;
+      }
+    }
+  }
+
   h1 {
     color: #8254f6;
   }
