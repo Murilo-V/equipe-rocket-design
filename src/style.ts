@@ -79,6 +79,7 @@ const MainStyle = styled.div`
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: #272433;
 
     h1 {
       font-size: 45pt;
