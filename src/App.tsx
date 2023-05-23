@@ -63,20 +63,32 @@ function App() {
             <div>
               <MdOndemandVideo color="#fff" size={100} />
               <p>Edição de vídeos</p>
+              <p style={{ fontSize: 14, fontWeight: 400 }}>
+                Temos editores para legendar, cortar e melhorar os seus vídeos.
+              </p>
             </div>
             <div>
               <FaBullhorn color="#fff" size={100} />
               <p>Criação de anúncios</p>
+              <p style={{ fontSize: 14, fontWeight: 400 }}>
+                Quem não é visto não é lembrado, tenha anúncios chamativos.
+              </p>
             </div>
           </div>
           <div>
             <div>
               <MdBrush color="#fff" size={100} />
               <p>Vinhetas / Introduções</p>
+              <p style={{ fontSize: 14, fontWeight: 400 }}>
+                Possuir uma vinheta trás autoridade e qualidade.
+              </p>
             </div>
             <div>
               <MdSmartphone color="#fff" size={100} />
               <p>Posts para redes sociais</p>
+              <p style={{ fontSize: 14, fontWeight: 400 }}>
+                Ganhe a atenção do seu público na maior vitrine do mundo.
+              </p>
             </div>
           </div>
         </div>

@@ -61,7 +61,6 @@ const MainStyle = styled.div`
   .services {
     background-color: #966dfd;
     padding-top: 5rem;
-    height: 70vh;
 
     div {
       display: flex;
@@ -85,7 +84,8 @@ const MainStyle = styled.div`
 
     p {
       color: #fff;
-      font-size: 15pt;
+      font-size: 18pt;
+      font-weight: 600;
       margin-top: 10px;
     }
   }
