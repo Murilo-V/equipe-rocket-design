@@ -96,12 +96,43 @@ function App() {
       <div id="portfolio" className="portfolio">
         <h2>Nosso portfólio</h2>
         <div>
-          <div></div>
-          <div></div>
+          <div>
+            <iframe
+              src="https://www.youtube.com/embed/z2maNdTJl-0"
+              width={"100%"}
+              height={"100%"}
+              title="YouTube video player"
+              allowFullScreen={false}
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              src="https://www.youtube.com/embed/kyno2JOOoHA"
+              width={"100%"}
+              height={"100%"}
+              title="YouTube video player"
+              allowFullScreen={false}
+            ></iframe>
+          </div>
         </div>
         <div>
-          <div></div>
-          <div></div>
+          <div>
+            <iframe
+              width={"100%"}
+              height={"100%"}
+              src="https://www.youtube.com/embed/pFIdd8ZMac4"
+              title="YouTube video player"
+              allowFullScreen={false}
+            ></iframe>
+          </div>
+          <div>
+            <img
+              width={"100%"}
+              height={"100%"}
+              src="https://raw.githubusercontent.com/fab-rodrigs/equipe-rocket-site/e02e3e1e5b2bd88e740850b8d654b030dd044425/src/assets/posts.svg"
+              alt="Post para Instagram feito pela Equipe Rocket"
+            />
+          </div>
         </div>
       </div>
       <div id="about" className="about">

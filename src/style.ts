@@ -106,11 +106,15 @@ const MainStyle = styled.div`
       justify-content: center;
 
       div {
-        background-color: #fff;
+        background-color: #000;
         width: 24rem;
         height: 14rem;
         margin: 2rem;
         border-radius: 1rem;
+
+        iframe {
+          border-radius: 1rem;
+        }
       }
     }
   }
